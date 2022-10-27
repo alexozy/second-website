@@ -1,0 +1,58 @@
+* {
+ background-color: whitesmoke;
+}
+
+
+.ozanne{
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: coral;
+    color: #ffffff;
+
+}
+
+nav {
+
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+.mountainscape{
+    height: 500px;
+    width: 50%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+/* attempted to round my profile photo  want to add more circle and thicker background*/
+.photome {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 35%;
+    background-color:  tan;
+  }
+
+/* Gallery Code Section */
+.gallery {
+    display: flex;
+  }
+  
+  .setup {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+
+  /* Implement Responsive Design */
+
+/* vision: i would like to do a full background with a gray/blue image with white text styling over the image.
+modern and clean
+with a navigation bar
+and footer with clickable links
+*/
