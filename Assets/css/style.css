@@ -1,22 +1,46 @@
 /*  add responsiveness @media etc. to adjust to different screens */
 
-/* colors: beige # F2EFDF; slamon #f3846C; yellow #F3bD55; pink #F9CAC0; gray #353547*/
+/* colors: beige # F2EFDF; slamon #f3846C; yellow #F3bD55; pink #F9CAC0; gray #353547; mustard #F3bD55*/
+* {
+    background-color: #353547;
+}
+
 header {
     text-align: center;
+    width: 100%;
+    height: 80%;
+    margin: 50px;
     border: 90px;
     background-color: #353547;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
+
+ul li{
+    list-style: none;
+  }
 
 
 body {
-    background-color: gray #353547;
+    background-color: #353547;
 }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    margin: 100px;
+    color: white;
+}
+
 
 img {
   height: 250px;
   width: auto;
   margin: 25px;
+}
+
+main {
+    margin-top: 500px;
 }
 
 .gallerypro {
@@ -27,9 +51,10 @@ img {
 }
 
 .galleryfirst {
-height: 750px;
-  width: 700;
+height: 650px;
+  width: 600;
   margin: 25px;
+  flex-wrap: wrap;
 }
 
 
@@ -41,18 +66,19 @@ height: 750px;
     font: 
 }
 .btn:hover {
-    background-color: #F3bD55;
+    background-color:#F2EFDF ;
     color: white;
 }
-.btn-1 { background-color: #353547; color: white;}
+.btn-1 { background-color: #F3bD55; color: white;}
 .btn-2 { background-color:#f3846C; color: white;}
 
 .btnnav{
     padding: 15px;
     margin: 20px;
     border: 0 white;
-    border-radius: 50%;
-    font: 
+    border-radius: 12px;
+    background-color: lightgray;
+    font-family: 'Montserrat', sans-serif;
     opacity: 1;
     transition: 0.3s;
 }
@@ -65,6 +91,12 @@ height: 750px;
     border: 0;
 }
 
-footer {
+.float-right {
+    float: right;
+    margin: 10px;
+}
 
+
+footer {
+    margin: 20px;
 }
