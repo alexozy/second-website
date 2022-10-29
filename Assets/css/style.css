@@ -1,58 +1,70 @@
-* {
- background-color: whitesmoke;
+/*  add responsiveness @media etc. to adjust to different screens */
+
+/* colors: beige # F2EFDF; slamon #f3846C; yellow #F3bD55; pink #F9CAC0; gray #353547*/
+header {
+    text-align: center;
+    border: 90px;
+    background-color: #353547;
+    color: white;
 }
 
 
-.ozanne{
-    padding: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: coral;
-    color: #ffffff;
-
+body {
+    background-color: gray #353547;
 }
 
-nav {
+img {
+  height: 250px;
+  width: auto;
+  margin: 25px;
+}
 
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: cursive;
-    font-size: 20px;
+.gallerypro {
+        display: block;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        text-align: center;
+}
+
+.galleryfirst {
+height: 750px;
+  width: 700;
+  margin: 25px;
 }
 
 
-.mountainscape{
-    height: 500px;
-    width: 50%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
+.btn{
+    padding: 15px;
+    margin: 20px;
+    border: 0 white;
+    border-radius: 12px;
+    font: 
 }
-/* attempted to round my profile photo  want to add more circle and thicker background*/
-.photome {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    border-radius: 35%;
-    background-color:  tan;
-  }
+.btn:hover {
+    background-color: #F3bD55;
+    color: white;
+}
+.btn-1 { background-color: #353547; color: white;}
+.btn-2 { background-color:#f3846C; color: white;}
 
-/* Gallery Code Section */
-.gallery {
-    display: flex;
-  }
-  
-  .setup {
-    flex: 33.33%;
-    padding: 5px;
-  }
+.btnnav{
+    padding: 15px;
+    margin: 20px;
+    border: 0 white;
+    border-radius: 50%;
+    font: 
+    opacity: 1;
+    transition: 0.3s;
+}
+.btnnav:hover{
+    opacity: 0.6;
+}
 
+.align-right {
+    text-align: center;
+    border: 0;
+}
 
-  /* Implement Responsive Design */
+footer {
 
-/* vision: i would like to do a full background with a gray/blue image with white text styling over the image.
-modern and clean
-with a navigation bar
-and footer with clickable links
-*/
+}

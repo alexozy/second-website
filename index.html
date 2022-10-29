@@ -12,54 +12,52 @@
 <!-- I want to try to do the blurred background image feature with the mountain scape -->
 <!-- developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them -->
 <body>
-    <header class="ozanne"> </header>
-        <h1> Ozanne Alexander</h1>
-        <nav>
-            <ul>
+    <header> </header>
+        <h1 class="header"> Ozanne Alexander</h1>
+        <nav class="align-right">
                 <!-- I click one of the links in the navigation -->
-                <li> 
-                  <a href="my-story"> My Story</a>
-                </li>
-                 <li>
-                    <a href="#my-work"> My Work </a>
-                 </li>
-                 <li>
-                    <a href="#my-contact"> My Contact </a>
-                 </li>
-            </ul> 
+                  <a class="btnnav btn-1 " href="#about-me"> About Me</a>  
+                
+                    <a class="btnnav btn-1 " href="#my-projects"> My Projects </a> 
+                
+                    <a class="btnnav btn-1 " href="#contact"> Contact </a>  
         </nav>
+        <br>
         <br>
         
     <!-- this will be the my work section -->
-    <main>
-        <h2 id="my-work"> MY WORK </h2>
-        <div class="gallery">
-              <img src="./Assets/images/placeholdercode.jpg" alt="Snow" style="width:100%">
-            </div>
-           
-              <img src="./Assets/images/placeholdersetup.jpg" alt="Forest" style="width:100%">
-            </div>
-            <div class="setup">
-              <img src="./Assets/images/placeholderdesk.jpg" alt="Mountains" style="width:100%">
-            </div>
+    <main class="gallerypro">
+        <h2 id="my-projects"> My Projects</h2>
+        <div>
+              <img class="galleryfirst"src="./Assets/images/placeholdercode.jpg" alt="Code on computer screen" >
+              <img src="./Assets/images/placeholdersetup.jpg" alt="Forest">
+              <img src="./Assets/images/placeholderdesk.jpg" alt="Mountains">
+              <img src="./Assets/images/placeholdercode.jpg" alt="Code on computer screen">
+              <img src="./Assets/images/placeholdersetup.jpg" alt="Forest">
+              <img src="./Assets/images/placeholderdesk.jpg" alt="Mountains">
+              <img src="./Assets/images/placeholdercode.jpg" alt="Code on computer screen">
+              <img src="./Assets/images/placeholdersetup.jpg" alt="Forest">
+              <img src="./Assets/images/placeholderdesk.jpg" alt="Mountains">
           </div>
-
-
-
-
-
     </main>
-       
-    <div> 
-        <h2 id="my-story"> My Story </h2>
+
+    <section> 
+        <h2 id="about-me"> About Me </h2>
         <img src="./Assets/images/photome.JPG" class="photome" alt="photo of future developer">
-    </div>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+    </section>
+
+    <aside id="contact" class="align-right"> 
+          <button class="btn btn-1" type="button" onclick="Contact Coming Soon!">Email Me!</button> 
+          <button class="btn btn-2" type="button" onclick="Calling Ozanne ">Call Me!</button> 
+          <button class="btn btn-2" type="button"> LinkedIn</button> 
+          <button  class="btn btn-1" type="button"> GitHub</button> 
+      
+    </aside>
+    
 
     <footer class="footer">
-        <h2>Thanks for Visiting!</h2>
-        <p>
-            New Projects Loading...
-        </p>
+        <p class="align-right">Thanks for Visiting!</p>
     </footer>
 </body>
 </html>
