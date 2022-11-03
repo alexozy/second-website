@@ -78,12 +78,18 @@ section .about-me-bio{
     flex-wrap: wrap;
     justify-content: center;
 }
+.galleryMain{
+    max-height: 750px;
+    min-height: 750px;
+    margin: 40px;
+}
 
 .gallery{
     max-height: 250px;
     min-height: 250px;
-    margin: 10px;
+    margin: 20px;
 }
+
 .btn{
     padding: 15px;
     margin: 20px;
@@ -119,11 +125,9 @@ footer {
     background-color:#6c4d59;
 }
 
-/* 
-aboutmephoto{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    margin: auto;
+@media screen and (max-width:768px) {
+    main,
+    nav {
+        flex-direction: column;
+    }
 }
-*/
